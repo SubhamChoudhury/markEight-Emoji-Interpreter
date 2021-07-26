@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
+
+.App {
+  font-family: "Courier Prime", monospace;
+  text-align: center;
+}
+
+:root {
+  --custom-pink: #f76c6c;
+  --custom-blue: #a8d0e6;
+}
+
+input {
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 80%;
+  border: 2px solid var(--custom-pink);
+  border-radius: 10px;
+}
+
+body {
+  background-color: var(--custom-blue);
+  margin: 0;
+}
+
+nav {
+  font-family: "Otomanopee One", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: var(--custom-pink);
+  padding: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.para {
+  max-width: 400px;
+  margin: auto;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+p {
+  font-family: "Courgette", cursive;
+  font-size: 1.7rem;
+  margin: 10px auto;
+  margin-top: 0;
+  color: black;
+}
+
+img {
+  width: 350px;
+  height: auto;
+}
